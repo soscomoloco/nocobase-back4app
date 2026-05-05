@@ -9,7 +9,7 @@ ENV DB_DIALECT=sqlite
 ENV DB_STORAGE=/app/nocobase/storage/db.sqlite
 
 # Exponer el puerto que usa Back4app
-EXPOSE 8080
+EXPOSE 80
 
 # El CMD de la imagen original ya es correcto; lo repetimos por claridad
 CMD ["yarn", "start"]
